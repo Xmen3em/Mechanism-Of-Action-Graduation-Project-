@@ -1,0 +1,130 @@
+/* page.module.css */
+
+.sectionContainer {
+  padding-top:4rem; /* Equivalent to md:py-20 */
+  padding-bottom: 5rem; /* Equivalent to py-10 */
+
+}
+.background {
+  background-image: url('../../../public/images/ooorganize.svg');
+}
+.heading {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  background-image: linear-gradient(to right, #3b82f6, #b99d10);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.paragraph {
+  font-size: 1.3rem;
+  font-weight:600;
+  background-color: #6b7280;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-bottom: 3px;
+}
+
+.buttonContainer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.button {
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.blueButton {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.grayButton {
+  background-color: #8d97ac;
+  color: white;
+}
+
+/* styles.module.css */
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Add some gap between images */
+}
+
+.imageFrame {
+  border-radius: 1rem;
+  overflow: hidden; /* Hide overflow content */
+}
+
+.image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+.videoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eff6ff;
+  border-radius: 1rem;
+  width: 60vw;
+  margin: 0 auto;
+  height: 40vh;
+  padding: 1rem;
+}
+
+.video {
+  border-radius: 1rem;
+}
+
+.howToUseContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.howToUseTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.howToUseText {
+  font-size: 1.5rem;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 640px) {
+  .heading {
+    font-size: 3rem;
+  }
+  .paragraph {
+    font-size: 1.3rem;
+  }
+  .buttonContainer {
+    flex-direction: row;
+  }
+}
+

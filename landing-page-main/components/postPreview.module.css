@@ -1,0 +1,38 @@
+.card {
+  position: relative;
+  border-radius: 0.75rem;
+  border: 1px solid #e5e7eb;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.gradient {
+  background-image: linear-gradient(to right, rgb(149, 149, 149), transparent);
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.card:hover .gradient {
+  opacity: 1;
+}
+
+.learnMore {
+  color: #3b82f6;
+  transition: color 0.3s ease-in-out;
+}
+
+.learnMore:hover {
+  color: #2563eb;
+}
+
+.arrowIcon {
+  fill: none;
+  stroke-width: 2;
+}
+
+.group:hover .arrowIcon {
+  transform: translateX(0.5rem);
+}

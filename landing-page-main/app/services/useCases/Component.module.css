@@ -1,0 +1,49 @@
+/* Component.module.css */
+
+.card {
+  position: relative;
+  border-radius: 0.75rem;
+  border: 1px solid #e5e7eb;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.gradient {
+  background-image: linear-gradient(to right, rgb(159, 159, 159), transparent);
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.card:hover .gradient {
+  opacity: 1;
+}
+
+.learnMore {
+  color: #3b82f6;
+  transition: color 0.3s ease-in-out;
+}
+
+.learnMore:hover {
+  color: #2563eb;
+}
+
+.arrowIcon {
+  fill: none;
+  stroke-width: 2;
+}
+
+.group:hover .arrowIcon {
+  transform: translateX(0.5rem);
+}
+.diabetesCard {
+  background-color: #f0f5f9; /* Light blue background */
+  color: #1a202c; /* Dark blue text color */
+  border: 2px solid #cbd5e0; /* Light gray border */
+}
+
+.diabetesCard .gradient {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+}

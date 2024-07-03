@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>PREDICTION OF MECHANISM OF ACTION</title>
+  <style>
+    body {
+      background-image: url('alexander-grey-nj9tmN-7YMA-unsplash.jpg');
+      /* Set background image */
+      background-size: cover;
+      /* Cover the entire viewport */
+      background-repeat: no-repeat;
+      /* background-color: #aea6a6; */
+      /* Set background color */
+      font-family: Arial, sans-serif;
+      /* Set font family */
+      text-align: center;
+      /* Center align text */
+    }
+
+    h1 {
+      color: #920055;
+      /* Set heading color */
+    }
+
+    form {
+      margin-top: 50px;
+      /* Add some space from the top */
+    }
+
+    input[type="file"] {
+      padding: 30px;
+      /* Add padding for better appearance */
+      border: 1px solid #f6f6f6;
+      /* Add border */
+      border-radius: 20px;
+      /* Add border radius */
+    }
+
+    input[type="submit"] {
+      padding: 15px 40px;
+      /* Add padding */
+      background-color: #000000;
+      /* Set button background color */
+      color: rgb(7, 229, 96);
+      /* Set button text color */
+      border: none;
+      /* Remove border */
+      border-radius: 10px;
+      /* Add border radius */
+      cursor: pointer;
+      /* Add cursor pointer on hover */
+    }
+
+    input[type="submit"]:hover {
+      background-color: #167127;
+      /* Change background color on hover */
+    }
+
+    #prediction {
+      margin-top: 30px;
+      /* Add space from the submit button */
+      color: #800f0f;
+      /* Set prediction text color */
+    }
+  </style>
+</head>
+
+<body>
+  <h1>PREDICTION OF MECHANISM OF ACTION</h1>
+  <form method="POST" action="/predict" enctype="multipart/form-data">
+    <p><input type="file" name="file"></p>
+    <p><input type="submit" value="Predict"></p>
+  </form>
+  <div id="prediction"></div>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0rem 20px;
+  
+}
+
+.article {
+  margin-top: 40px;
+}
+
+
+.link {
+    color: #3b82f6; /* equivalent to blue-500 */
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #1d4ed8; /* equivalent to blue-700 */
+}
+
+
