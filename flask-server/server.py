@@ -8,7 +8,6 @@ from sklearn.preprocessing import LabelEncoder
 from tensorflow.keras.models import load_model
 from io import StringIO
 
-
 from flask import send_file
 from flask import send_from_directory
 import os
