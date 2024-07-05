@@ -1,4 +1,6 @@
-# Mechanism of Action Graduation Project
+# Mechanisms of Action (MOA) Prediction Web Application
+
+![](https://github.com/Xmen3em/Mechanism-Of-Action-Graduation-Project-/blob/main/maxresdefault.jpg)
 
 ## Description
 This project aims to predict the mechanism of action (MOA) of various drugs using machine learning and deep learning techniques. It leverages gene expression, cell viability data, and other relevant features to develop a predictive model that can assist in drug discovery and development.
