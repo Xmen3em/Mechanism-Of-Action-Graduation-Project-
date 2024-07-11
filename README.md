@@ -57,14 +57,18 @@ Utilizes machine learning models to predict drug MOA.
 ![](https://github.com/Xmen3em/Mechanism-Of-Action-Graduation-Project-/blob/main/Screenshot%202024-07-11%20232829.png)
 
 **score on kaggle**
+
 ![](https://github.com/Xmen3em/Mechanism-Of-Action-Graduation-Project-/blob/main/autoencoder%20%2B%20neural%20network/Screenshot%20from%202024-05-20%2023-20-05.png)
 
 **training history**
+
 ![](https://github.com/Xmen3em/Mechanism-Of-Action-Graduation-Project-/blob/main/autoencoder%20%2B%20neural%20network/__results___16_1.png)
 
 #### XGBoost using Autoencoder
 ![](https://github.com/Xmen3em/Mechanism-Of-Action-Graduation-Project-/blob/main/Screenshot%202024-07-11%20233600.png)
 
 **score on kaggle**
+
 ![](https://github.com/Xmen3em/Mechanism-Of-Action-Graduation-Project-/blob/main/xgboost/xgboost_autoencoder/score.png)
 
+#### *These are the two best models out of the many models we have trained*
