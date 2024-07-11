@@ -48,3 +48,18 @@ npm run dev
 #### Node.js Frontend
 
 The frontend provides an interactive interface for users to input data and view predictions. After running npm run dev, visit http://localhost:3000 in your browser to access the application.
+
+## Features
+
+### Predictive Models
+Utilizes machine learning models to predict drug MOA.
+#### ANN
+![](https://github.com/Xmen3em/Mechanism-Of-Action-Graduation-Project-/blob/main/Screenshot%202024-07-11%20232829.png)
+
+![]()
+
+#### XGBoost using Autoencoder
+![](https://github.com/Xmen3em/Mechanism-Of-Action-Graduation-Project-/blob/main/Screenshot%202024-07-11%20233600.png)
+
+![]()
+

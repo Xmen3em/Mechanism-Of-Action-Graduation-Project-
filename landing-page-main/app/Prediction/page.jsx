@@ -97,9 +97,20 @@ const Prediction = () => {
         <div className="bg-gray-200 dark:bg-indigo-950 p-6 rounded-lg">
           <h2 className="text-2xl font-semibold mb-8">Requirements</h2>
           <ul className="list-disc list-inside">
-            <li className="mb-4">File size is less than 25MB</li>
-            <li className="mb-4">File has at least x columns</li>
-            <li className="mb-4">First row is column names</li>
+            <li className="mb-4">✓ File format is CSV or Excel</li>
+            <li className="mb-4">✓ First row is column names</li>
+            <li className="mb-4">✓ First column is an ID or equivalent</li>
+            <li className="mb-4">
+              🔗{" "}
+              <a
+                href="/sample.csv"
+                style={{ textDecoration: "underline" }}
+                download
+              >
+                Here
+              </a>{" "}
+              is a sample CSV file
+            </li>
           </ul>
         </div>
 

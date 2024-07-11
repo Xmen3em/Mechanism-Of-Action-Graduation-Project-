@@ -271,8 +271,12 @@ def upload_file():
     end_time = time.time()
     print('TIME TAKEN TO PREDICT IS : {}'.format(end_time - start_time))
 
-    sub.iloc[ : new_data.shape[0],1:] = np.clip(y_pred,p_min,p_max)
-    prediction = sub.iloc[ : new_data.shape[0], : ]
+    sub.iloc[:new_data.shape[0], 1:] = np.clip(y_pred, p_min, p_max)
+
+    # Round the numbers to 3 decimal places
+    sub.iloc[:new_data.shape[0], 1:] = sub.iloc[:new_data.shape[0], 1:].round(5)
+
+    prediction = sub.iloc[:new_data.shape[0], :]
     prediction['sig_id'] = data['sig_id']
 
     # Storing preview data temporarily
@@ -336,4 +340,3 @@ def visualize():
 
 if __name__ == '__main__': 
     app.run(debug=True)
-
