@@ -81,4 +81,4 @@ Web application built with Node.js for easy interaction.
 
 ### **A video explaining what's in the web and how to use our tool to predict the mechanism of action**
 
-[![](https://github.com/Xmen3em/Mechanism-Of-Action-Graduation-Project-/blob/main/2024%2C_3_19_17_pm_(copy)%20(1080p).mp4)]((https://github.com/Xmen3em/Mechanism-Of-Action-Graduation-Project-/blob/main/2024%2C_3_19_17_pm_(copy)%20(1080p).mp4))
+<video width="630" height="300" src="https://github.com/Xmen3em/Mechanism-Of-Action-Graduation-Project-/blob/main/2024%2C_3_19_17_pm_(copy)%20(1080p).mp4"></video>
