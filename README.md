@@ -53,6 +53,7 @@ The frontend provides an interactive interface for users to input data and view 
 
 ### Predictive Models
 Utilizes machine learning models to predict drug MOA.
+
 #### ANN
 ![](https://github.com/Xmen3em/Mechanism-Of-Action-Graduation-Project-/blob/main/Screenshot%202024-07-11%20232829.png)
 
@@ -72,3 +73,8 @@ Utilizes machine learning models to predict drug MOA.
 ![](https://github.com/Xmen3em/Mechanism-Of-Action-Graduation-Project-/blob/main/xgboost/xgboost_autoencoder/score.png)
 
 #### *These are the two best models out of the many models we have trained*
+
+## User-Friendly Interface
+Web application built with Node.js for easy interaction.
+
+![](https://github.com/Xmen3em/Mechanism-Of-Action-Graduation-Project-/blob/main/Screenshot%202024-07-12%20000419.png)
