@@ -78,3 +78,7 @@ Utilizes machine learning models to predict drug MOA.
 Web application built with Node.js for easy interaction.
 
 ![](https://github.com/Xmen3em/Mechanism-Of-Action-Graduation-Project-/blob/main/Screenshot%202024-07-12%20000419.png)
+
+### **A video explaining what's in the web and how to use our tool to predict the mechanism of action**
+
+![](https://github.com/Xmen3em/Mechanism-Of-Action-Graduation-Project-/blob/main/2024%2C_3_19_17_pm_(copy)%20(1080p).mp4)
